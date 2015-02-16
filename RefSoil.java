@@ -16,7 +16,7 @@ public class RefSoil {
        		}
        		
        		String RefList = "refSeqList.csv";
-       		String resultFile = "refSeqListInput.csv";
+       		String resultFile = "refSeqListInput.txt";
        		ReadFile refSoilList = new ReadFile(RefList,",");
        
        		PrintStream resultOut = new PrintStream(resultFile);
